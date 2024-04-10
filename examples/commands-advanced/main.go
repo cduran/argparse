@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/akamensky/argparse"
-	"github.com/akamensky/argparse/examples/commands-advanced/zoo"
+	"github.com/cduran/argparse"
+	"github.com/cduran/argparse/examples/commands-advanced/zoo"
 	"log"
 	"os"
 )

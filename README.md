@@ -1,6 +1,6 @@
 # Golang argparse
 
-[![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/akamensky) [![Go Reference](https://pkg.go.dev/badge/github.com/akamensky/argparse.svg)](https://pkg.go.dev/github.com/akamensky/argparse) [![Go Report Card](https://goreportcard.com/badge/github.com/akamensky/argparse)](https://goreportcard.com/report/github.com/akamensky/argparse) [![Coverage Status](https://coveralls.io/repos/github/akamensky/argparse/badge.svg?branch=master)](https://coveralls.io/github/akamensky/argparse?branch=master) [![Build Status](https://travis-ci.org/akamensky/argparse.svg?branch=master)](https://travis-ci.org/akamensky/argparse)
+[![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/cduran) [![Go Reference](https://pkg.go.dev/badge/github.com/cduran/argparse.svg)](https://pkg.go.dev/github.com/cduran/argparse) [![Go Report Card](https://goreportcard.com/badge/github.com/cduran/argparse)](https://goreportcard.com/report/github.com/cduran/argparse) [![Coverage Status](https://coveralls.io/repos/github/cduran/argparse/badge.svg?branch=master)](https://coveralls.io/github/cduran/argparse?branch=master) [![Build Status](https://travis-ci.org/cduran/argparse.svg?branch=master)](https://travis-ci.org/cduran/argparse)
 
 Let's be honest -- Go's standard command line arguments parser `flag` terribly sucks. 
 It cannot come anywhere close to the Python's `argparse` module. This is why this project exists.
@@ -13,7 +13,7 @@ Which is where the name of this package comes from.
 To install and start using argparse simply do:
 
 ```
-$ go get -u -v github.com/akamensky/argparse
+$ go get -u -v github.com/cduran/argparse
 ```
 
 You are good to go to write your first command line tool!
@@ -31,7 +31,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/akamensky/argparse"
+	"github.com/cduran/argparse"
 	"os"
 )
 
